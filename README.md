@@ -1,3 +1,36 @@
+# Project Title: Employee Recognition & Rewards Tracker
+
+– Enhancing Workplace Culture through Recognition and Rewards
+
+# Problem Statement
+
+Organizations often struggle with maintaining high employee morale and motivation. Recognition for achievements is either inconsistent or informal, leading to decreased employee engagement and retention. Managers may not have a structured way to track recognitions or measure the impact of rewards. Employees often feel that their contributions go unnoticed, which affects performance and team spirit. Existing systems, if any, are fragmented and fail to provide real-time insights into employee achievements, recognition trends, or reward distribution. Without a centralized recognition and rewards system, organizations miss opportunities to celebrate employee success and foster a positive workplace culture.
+
+# Proposed Salesforce Solution
+
+# Employee Profiles: 
+Maintain detailed employee records with department, role, and accumulated reward points.
+
+# Recognition Tracking:
+ Managers and peers can create recognition records linked to employees for achievements, milestones, or contributions.
+
+# Automated Rewards System:
+Points are automatically calculated and rolled up for each employee.
+Star Performer flag updates dynamically based on recognition points.
+
+# Notifications & Engagement: 
+Automated email alerts are sent to employees upon receiving recognition.
+
+# Reports & Dashboards:
+Top-performing employees by reward points.
+Recognition distribution by department and month.
+Trend analysis of employee engagement.
+
+# Security & Access:
+ Role-based access ensures that sensitive recognition data is only visible to authorized managers and admins.
+
+# Management Insights: 
+Dashboards provide HR and leadership with real-time visibility into recognition trends, employee performance, and department-level contributions.
 <<<<<<< HEAD
 # Salesforce DX Project: Next Steps
 
@@ -18,19 +51,4 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
 =======
-1. Create a New App
-  Go to Setup → App Manager → New Lightning App.
-  Named the app: Employee Recognition & Rewards Tracker.
-2. Create Custom Objects
-    Employee (to store employee details)
-    Fields: Employee Name, Email, Department (Picklist), Manager (Lookup to Employee).
-  Recognition (to track achievements)
-    Fields: Title, Description, Date, Reward Points (Number).
-    Lookup to Employee for linking recognitions.
-3. Create Custom Fields
-  Added fields under each object based on requirements.
-  On Employee, created a Roll-Up Summary: Total Reward Points = SUM of Reward Points from related Recognitions.
-4. Create Tabs
-  Created Employee Tab.
-  Created Recognition Tab.
->>>>>>> e429ef422cda3cad6f5c076bf838635b1dfa606c
+

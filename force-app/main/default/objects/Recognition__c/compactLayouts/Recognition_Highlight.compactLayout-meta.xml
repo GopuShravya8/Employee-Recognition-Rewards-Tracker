@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recognition_Highlight</fullName>
+    <fields>Employee__c</fields>
+    <fields>Title__c</fields>
+    <fields>Reward_Points__c</fields>
+    <label>Recognition Highlight</label>
+</CompactLayout>

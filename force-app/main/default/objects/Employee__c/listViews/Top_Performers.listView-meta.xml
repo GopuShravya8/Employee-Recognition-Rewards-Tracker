@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Performers</fullName>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Total_Reward_Points__c</field>
+        <operation>greaterThan</operation>
+        <value>500</value>
+    </filters>
+    <label>Top Performers</label>
+    <sharedTo>
+        <role>HR</role>
+        <role>Manager</role>
+    </sharedTo>
+</ListView>

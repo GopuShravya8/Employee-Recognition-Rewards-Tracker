@@ -1,0 +1,25 @@
+Phase 1: Problem Understanding & Industry Analysis
+Objective:
+To understand the current employee recognition process, identify challenges, and define requirements for a Salesforce system that tracks achievements, manages reward points, and improves engagement.
+1. Requirement Gathering
+   Identify what the organization wants to achieve with the recognition system.
+   Track employee achievements and milestones.
+   Award and manage reward points.
+   Send notifications for recognitions and milestones.
+   Generate performance reports and dashboards.
+2. Stakeholder Analysis
+   HR Managers: Define recognition criteria and manage the reward system.
+   Team Leads / Managers: Nominate employees for recognition, approve rewards.
+   Employees: View own achievements, points, and leaderboard rankings.
+3. Business Process Mapping
+   Document the current manual process (if any) for employee recognition.
+   Identify pain points such as:
+    *Delayed or missed recognition.
+    *Manual calculations of points.
+    *Lack of visibility for employees and managers.
+4. Industry-specific Use Case Analysis
+  Research how other organizations implement recognition and reward programs.
+  Identify best practices: automated notifications, point-based rewards, dashboards, and leaderboards.
+5. AppExchange Exploration
+  Explore existing Salesforce apps for employee recognition.
+  Identify features that can be included or improved in your custom solution.
